@@ -45,8 +45,12 @@ class Game
 
   def turn
     puts "Please enter a number 1-9:"
-    binding.pry
     input = current_player.move(board)
+    if board.valid_move?(input)
+      board.update(input, current_player)
+    else puts "Please enter a number 1-9:"
+      board.display
+      turn
   end
 #  def turn
 #    puts "Please enter a number 1-9:"
