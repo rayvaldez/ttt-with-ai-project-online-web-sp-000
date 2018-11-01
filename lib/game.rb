@@ -51,6 +51,7 @@ class Game
     else puts "Please enter a number 1-9:"
       board.display
       turn
+    end
   end
 #  def turn
 #    puts "Please enter a number 1-9:"
