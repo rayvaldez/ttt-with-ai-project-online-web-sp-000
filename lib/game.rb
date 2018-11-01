@@ -50,7 +50,6 @@ class Game
       board.update(input, current_player)
     else puts "Please enter a number 1-9:"
       board.display
-      turn
     end
   end
 
