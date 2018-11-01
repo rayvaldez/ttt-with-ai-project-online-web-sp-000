@@ -6,8 +6,8 @@ def start
   puts "Welcome to Command Line Tic Tac Toe!"
   puts " Please choose player mode:
   0 - Computer VS Computer
-  1 - You VS Computer
-  2 - You VS Your friend"
+  1 - Player VS Computer
+  2 - Player 1 VS Player 2"
 
   player_mode = gets.strip
 
