@@ -44,7 +44,7 @@ class Game
   end
 
   def turn
-
+    input = gets.strip
   end
 #  def turn
 #    puts "Please enter a number 1-9:"
