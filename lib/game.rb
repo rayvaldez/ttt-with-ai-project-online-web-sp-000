@@ -49,9 +49,9 @@ class Game
     if board.valid_move?(input)
       board.update(input, current_player)
     else puts "Please enter a number 1-9:"
-      board.display
       turn
     end
+    board.display
   end
 
   def play
